@@ -77,3 +77,18 @@
     
 }
 
+.ex-11-icon:hover{
+    animation: undici 2s linear ;
+
+}
+@keyframes undici  {
+        0% {
+            transform: rotate(0);
+        }
+        90% {
+            transform: rotate(270deg);
+        }
+        100% {
+            transform: rotate(0);
+        }
+}
