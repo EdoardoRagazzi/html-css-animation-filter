@@ -63,3 +63,17 @@
     filter: drop-shadow(10px 10px 4px grey);
     border-radius: 50%;
 }
+
+
+
+.ex-10-icon{
+    animation: turn 2s linear infinite;
+}
+
+@keyframes turn {
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
+
