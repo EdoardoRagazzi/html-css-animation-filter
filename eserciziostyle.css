@@ -44,3 +44,11 @@
     transform: scale(2);
     border-radius: 20%;
 }
+.ex-8-img{
+    transition: 2s;
+}
+.ex-8-img:hover{
+    transform: scale(.34);
+    filter: drop-shadow(10px 10px 4px grey);
+    border-radius: 50%;
+}
