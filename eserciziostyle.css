@@ -92,3 +92,35 @@
             transform: rotate(0);
         }
 }
+
+
+
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: white 4s linear;
+}
+@keyframes white {
+    0% {
+        left: 20%;
+    }
+    60% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 20%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: down 4s linear;
+}
+@keyframes down {
+    0% {
+        right: 40%;
+    }
+    60% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 40%;
+    }
+}
