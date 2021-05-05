@@ -36,3 +36,11 @@
 .ex-6-img:hover{
   filter: grayscale(1)
 }
+.ex-7-img{
+    transition: 3s;
+}
+.ex-7-img:hover{
+    filter: sepia(2);
+    transform: scale(2);
+    border-radius: 20%;
+}
